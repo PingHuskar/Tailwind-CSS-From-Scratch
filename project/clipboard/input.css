@@ -14,8 +14,8 @@
 .section-container {
     @apply max-w-6xl px-10 mx-auto text-center;
 }
-.section-description {
-    @apply max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayishBlue;
+.section-content {
+    @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
 }
 .button-container {
     @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;

@@ -13,13 +13,13 @@
   </head>
   <body class="select-none">
     <section id="hero" class="h-screen">
-      <div class="pt-16 mb-40 section-container">
-        <img src="images/logo.svg" alt="" class="mx-auto my-24">
+      <div class="md:pt-16 lg:py:24 md:mb-40 section-container">
+        <img src="images/logo.svg" alt="" class="mx-auto my-10 md:my-24">
         <h3>A history of everything you copy</h3>
-        <p class="max-w-3xl mx-auto my-24 text-2xl text-grayishBlue">
+        <p class="section-content sm:my-4 md:max-w-3xl md:mx-auto md:my-24 md:text-2xl text-grayishBlue">
           Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.
         </p>
-        <div class="button-container">
+        <div class="mt-4 button-container">
           <a href="#" class="button bg-strongCyan">
             Download for iOS
           </a>
@@ -33,7 +33,7 @@
     <section id="snippets">
       <div class="my-20 section-container">
         <h3>Keep track of your snippets</h3>
-        <p class="section-description">
+        <p class="mb-24 section-content">
           Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your
           devices. Our Mac and iOS apps will help you organize everything.
         </p>
@@ -73,12 +73,39 @@
     <section id="access">
       <div class="my-20 section-container">
         <h3>Access Clipboard Anywhere</h3>
-        <p class="section-description">
+        <p class="mb-24 section-content">
           Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
         </p>
       </div>
       <img src="images/image-devices.png" alt="" class="mx-auto">
     </section>
+
+    <section id="supercharge">
+      <div class="my-20 section-container">
+        <h3>Supercharge your workflow</h3>
+        <p class="mb-16 section-content ">
+          We've got the tools to boost your productivity.
+        </p>
+        <div class="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-blacklist.svg" alt="" class="mb-6">
+            <h5>Create Blacklists</h5>
+            <p class="max-w-md text-grayishBlue">Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-text.svg" alt="" class="mb-6">
+            <h5>Plain Text Snippets</h5>
+            <p class="max-w-md text-grayishBlue">Remove unwanted formatting from copied text for a consistent look.</p>
+          </div>
+          <div class="flex flex-col items-center space-y-5">
+            <img src="images/icon-preview.svg" alt="" class="mb-6">
+            <h5>Sneak Preview</h5>
+            <p class="max-w-md text-grayishBlue">Quick preview of all snippets on your Clipboard for easy access.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
   </body>
 </html>
