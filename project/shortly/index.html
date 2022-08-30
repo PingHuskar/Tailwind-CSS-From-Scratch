@@ -57,10 +57,12 @@
     <section id="shorten" class="relative bg-gray-100">
       <div class="max-w-4xl p-6 mx-auto space-y-6">
         <form id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 rounded-lg bg-darkViolet md:flex-row md:space-y-0 md:space-x-3">
-          <input type="text" class="flex-1 p-3 placeholder-yellow-500 border-2 rounded-lg focus:outline-none" placeholder="Shorten a link here" id="link-input">
+          <input id="link-input" type="text" class="flex-1 p-3 placeholder-yellow-500 border-2 rounded-lg focus:outline-none" placeholder="Shorten a link here">
           <button class="px-10 py-3 text-white rounded-lg bg-cyan hover:bg-cyanLight focus:outline-none md:py-2">
             Shorten It!
           </button>
+
+          <div id="err-msg" class="absolute text-sm italic left-7 bottom-3"></div>
         </form>
 
         <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
@@ -104,5 +106,7 @@
         </div>
       </div>
     </section>
+
+    <script src="js/scripts.js"></script>
   </body>
 </html>
